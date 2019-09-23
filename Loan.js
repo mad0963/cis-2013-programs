@@ -8,7 +8,7 @@ var $ = function (id)
  *start
    declare floatMonthlyPayment, intLoanTerm, floatTotalCost
    get floatMonthlyPayment
-   get intLoanTerm with loan in term months
+   get intLoanTerm 
    calculate floatTotalCost = floatMonthlyPayment * intLoanTerm
    output floatTotalCost
   end
@@ -16,7 +16,7 @@ var $ = function (id)
  {
     var flowMonthlyPayment, intLoanTerm, floatTotalCost;
     floatMonthlyPayment = parseFloat($("monthly payment"). value);
-    intLoanTerm = parseInt($("LoanTerm").value);
+    intLoanTerm = parseInt($("Loan_length").value);
     floatTotalCost = parseFloat(floatMonthlyPayment * intLoanTerm);
     $("total cost"). value = floatTotalCost;
  
