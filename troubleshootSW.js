@@ -37,7 +37,7 @@ switch (true) {
       case boolPrinting === true && boolRedLight === true && boolRecognised === false:
        stringOutput = stringMessage4 + "\n" + stringMessage5;
        break;
-      case boolPrinting === true && boolRedLight === false && boolRecognise === true:
+      case boolPrinting === true && boolRedLight === false && boolRecognised === true:
        stringOutput = stringMessage1 + "\n" + stringMessage2 + "\n" + stringMessage3;
        break;
       case boolPrinting === true && boolRedLight === false && boolRecognised === false:
